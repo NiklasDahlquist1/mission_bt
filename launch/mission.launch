@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+
+    <node pkg="mission_bt" type="mission_bt_node" name="mission_bt_node" output="screen">
+
+    	<remap from="odom" to="" />
+        <remap from="start_command" to="" />
+        <remap from="mux_path_wp" to="" />
+        <remap from="mux_controller_wp" to="" />
+
+    </node>
+
+
+</launch>
+
+
